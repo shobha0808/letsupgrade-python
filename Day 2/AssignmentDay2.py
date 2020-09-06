@@ -11,11 +11,7 @@ Original file is located at
 
 lst=[1,2,3,4,[1,2,3]]
 
-lst
-
 lst.append('shobs')
-
-lst
 
 lst[4][1]
 
@@ -23,37 +19,23 @@ lst.count("shobs")
 
 lst.insert(6,"type")
 
-lst
-
 lst.reverse()
-
-lst
 
 lst.pop(-4)
 
-lst
-
 lstb=["class",84]
 
-lstb
-
 lst.extend(lstb)
-
-lst
 
 #Dictionary and its default function
 
 dict= { "Name": "shobha", "age":24, "surname": "chahar" }
-
-dict
 
 dict.values()
 
 dict.keys()
 
 dict.clear()
-
-dict
 
 dict.copy()
 
@@ -67,25 +49,15 @@ dict.pop("Age")
 
 st = [ 1,2,2,2,4,4,6,7, "name" ]
 
-st
-
-st.
-
 st.append("january")
-
-st
 
 st1 = ["class"]
 
 st.extend(st1)
 
-st
-
 #tuple and it's function
 
 tup = ( "Engineer", "Shobha", "Science" )
-
-tup
 
 tup.index("Science")
 
