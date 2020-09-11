@@ -36,12 +36,14 @@ fltrObj=filter(isPrime, range(2500))
 print (list(fltrObj),  "Prime numbers between 1-2500:")
 
 
-#to capatilize the whole sentence
+#to capatilize the words using lambda
 
 lst = ['hi, science, lost, flyhigh, soul']
 temp = list(map(lambda ele: ele.capitalize(),lst))
 temp = str(temp)
 print(temp)
 
+
+#to capatilize the whole sentence 
 
 'hey this is sai i am in mumbai...'.title()
