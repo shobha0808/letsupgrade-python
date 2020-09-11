@@ -38,12 +38,13 @@ print (list(fltrObj),  "Prime numbers between 1-2500:")
 
 #to capatilize the words using lambda
 
-lst = ['hi, science, lost, flyhigh, soul']
-temp = list(map(lambda ele: ele.capitalize(),lst))
-temp = str(temp)
-print(temp)
+function_name = lambda variable_name : variable_name.itsfunction()
+cs = lambda string: string.upper()
+hello_converted = ['hey its me i want to go there']
+hello_converted = list(map(cs,hello))
+print(hello_converted)
 
 
-#to capatilize the whole sentence 
+#to capatilize the whole sentence witout lambda
 
 'hey this is sai i am in mumbai...'.title()
