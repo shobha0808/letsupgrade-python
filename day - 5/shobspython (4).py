@@ -7,6 +7,21 @@ Original file is located at
     https://colab.research.google.com/drive/1SrN7qghncZ7Aa4CN0AuHyapjEwE4m-WS
 """
 
+
+#to identify sublist in the given list 
+
+lst = [1,3,4,5,2,6,1,3,5,1,3,4,7,8]
+n=0
+for value in lst:
+    if n==0 and value==1 or n==1 and value==1 or n==2 and value==5:
+        n+=1
+if n==3:
+    print("yeahhhhhh It's a Match")
+else:
+    print("It's Gone")
+    
+
+
 #prime number using filter function in the range
 
 def isPrime(x):
@@ -23,4 +38,10 @@ print (list(fltrObj),  "Prime numbers between 1-2500:")
 
 #to capatilize the whole sentence
 
-"hey this is sai i am in mumbai...".title()
+lst = ['hi, science, lost, flyhigh, soul']
+temp = list(map(lambda ele: ele.capitalize(),lst))
+temp = str(temp)
+print(temp)
+
+
+'hey this is sai i am in mumbai...'.title()
