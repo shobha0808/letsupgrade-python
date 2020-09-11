@@ -19,3 +19,8 @@ def isPrime(x):
 fltrObj=filter(isPrime, range(2500))
 
 print (list(fltrObj),  "Prime numbers between 1-2500:")
+
+
+#to capatilize the fwhole sentence
+
+"hey this is sai i am in mumbai...".title()
