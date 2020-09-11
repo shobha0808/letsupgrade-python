@@ -21,6 +21,6 @@ fltrObj=filter(isPrime, range(2500))
 print (list(fltrObj),  "Prime numbers between 1-2500:")
 
 
-#to capatilize the fwhole sentence
+#to capatilize the whole sentence
 
 "hey this is sai i am in mumbai...".title()
