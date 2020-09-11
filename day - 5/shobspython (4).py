@@ -45,6 +45,6 @@ hello_converted = list(map(cs,hello))
 print(hello_converted)
 
 
-#to capatilize the whole sentence witout lambda
+#to capatilize the whole sentence 
 
 'hey this is sai i am in mumbai...'.title()
