@@ -7,23 +7,27 @@ Original file is located at
     https://colab.research.google.com/drive/1SrN7qghncZ7Aa4CN0AuHyapjEwE4m-WS
 """
 # Problem 1
-class BankAccount:
- def __init__(self, forename, balance):
-		self.forename = shobha
-		my_account = forename
-print('my_account')
 
-class BankAccount(object):
-    def __init__(self, initial_balance=0):
-        self.balance = initial_balance
+class bankaccount():
+    def __init__(self,S_name, balance):
+        self.S_name = S_name 
+        self.balance = balance
+
     def deposit(self, amount):
         self.balance += amount
+        return print("total amount: ",self.balance)
     def withdraw(self, amount):
-        self.balance -= amount
-  
-my_account = BankAccount(15)
-my_account.deposit(5)
-print(my_account.balance)
+        if amount > self.balance:
+            return print("total balance is low")
+        else:
+            self.balance-= amount
+            return print("total balance: ",self.balance)
+
+bank = bankaccount('shobha',30000)
+bank.deposit(5000)
+bank.withdraw(30000)
+bank.deposit(500)
+bank.withdraw(6000)
 
 
 # Problem 2
